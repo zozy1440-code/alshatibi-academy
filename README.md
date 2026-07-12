@@ -119,8 +119,11 @@ header{
 
 <div class="form-wrap">
 <div class="form-card" id="formCard">
-  <form id="regForm" action="https://formspree.io/f/YOUR_FORM_ID" method="POST">
+  <form id="regForm" action="https://formsubmit.co/ajax/zozy1440@gmail.com" method="POST">
     <input type="hidden" name="البرنامج" id="programField">
+    <input type="hidden" name="_subject" value="طلب تسجيل جديد — أكاديمية الشاطبي">
+    <input type="hidden" name="_template" value="table">
+    <input type="hidden" name="_captcha" value="false">
 
     <div class="sec-title"><span>①</span> البيانات الشخصية</div>
     <div class="grid">
@@ -313,4 +316,3 @@ init();
 </script>
 </body>
 </html>
-
